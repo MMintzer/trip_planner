@@ -6,11 +6,64 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Trip Planner</title>
   <script src="./bundle.js" defer></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet'/>
   <link rel="stylesheet" href="./style.css"></link>
 </head>
 <body>
+  <nav>
+    <p>THIS IS THE NAV</p>
+  </nav>
   <div id="map">
+
+    <aside id="top">
+
+      <div id="topforms">
+
+        <form class="form" action="index.html" method="post">
+          <label for="">HOTELS</label>
+          <input type="text" name="name" value="">
+          <button type="button" name="button">X</button>
+
+          <label for="">RESTAURANTS</label>
+          <input type="text" name="name" value="">
+          <button type="button" name="button">X</button>
+
+          <label for="">THINGS TO DO</label>
+          <input type="text" name="name" value="">
+          <button type="button" name="button">X</button>
+        </form>
+
+      </div>
+    </aside>
+
+    <aside id="bottom">
+      <header id="header">
+        ITINERARY:
+      </header>
+      <div id="botforms">
+
+        <form class="form" action="index.html" method="post">
+          <div class="wrapper">
+
+            <label for="">HOTELS</label>
+
+            <div class="inputbut">
+              <input type="text" name="name" value="">
+              <button type="button" name="button">X</button>
+            </div>
+          </div>
+
+          <label for="">RESTAURANTS</label>
+          <input type="text" name="name" value="">
+          <button type="button" name="button">X</button>
+
+          <label for="">THINGS TO DO</label>
+          <input type="text" name="name" value="">
+          <button type="button" name="button">X</button>
+        </form>
+
+      </div>
+    </aside>
   </div>
 </body>
 </html>
